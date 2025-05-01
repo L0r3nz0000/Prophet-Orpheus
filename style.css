@@ -1,0 +1,11 @@
+img {
+  width: 200px;
+}
+img:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease;
+}
+img:active {
+  transform: scale(0.8);
+  transition: transform 0.5s ease;
+}
